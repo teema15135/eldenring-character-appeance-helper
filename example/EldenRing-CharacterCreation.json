@@ -1,0 +1,174 @@
+{
+  "CharacterCreation": {
+    "AlterFaceAndHair": {
+      "FaceTemplate": {
+        "BoneStructure": 6,
+        "FormEmphasis": 0,
+        "ApparentAge": 0,
+        "FacialAesthetic": 180
+      },
+      "FaceStructure": {
+        "FacialBalance": {
+          "NoseSize": 50,
+          "NoseForeheadRatio": 50,
+          "FaceProtrusion": 50,
+          "VerticalFaceRatio": 50,
+          "FacialFeatureSlant": 50,
+          "HorizontalFaceRatio": 50
+        },
+        "ForeheadGlabella": {
+          "ForeheadDepth": 50,
+          "ForeheadProtrusion": 50,
+          "NoseBridgeHeight": 50,
+          "BridgeProtrusion1": 50,
+          "BridgeProtrusion2": 50,
+          "NoseBridgeWidth": 50
+        },
+        "BrowRidge": {
+          "BrowRidgeHeight": 50,
+          "InnerBrowRidge": 50,
+          "OuterBrowRidge": 50
+        },
+        "Eyes": {
+          "EyePosition": 50,
+          "EyeSize": 50,
+          "EyeSlant": 50,
+          "EyeSpacing": 50
+        },
+        "NoseRidge": {
+          "NoseRidgeDepth": 50,
+          "NoseRidgeLength": 50,
+          "NosePosition": 50,
+          "NoseTipHeight": 50,
+          "NoseProtrusion": 50,
+          "NoseHeight": 50,
+          "NoseSlant": 50
+        },
+        "Nostrils": {
+          "NostrilSlant": 50,
+          "NostrilSize": 50,
+          "NostrilWidth": 50
+        },
+        "Cheeks": {
+          "CheekboneHeight": 50,
+          "CheekboneDepth": 50,
+          "CheekboneWidth": 50,
+          "CheekboneProtrusion": 50,
+          "Cheeks": 50
+        },
+        "Lips": {
+          "LipShape": 50,
+          "MouthExpression": 50,
+          "LipFullness": 50,
+          "LipSize": 50,
+          "LipProtrusion": 50,
+          "LipThickness": 50
+        },
+        "Mouth": {
+          "MouthProtrusion": 50,
+          "MouthSlant": 50,
+          "Occlusion": 50,
+          "MouthPosition": 50,
+          "MouthWidth": 50,
+          "MouthChinDistance": 50
+        },
+        "Chin": {
+          "ChinTipPosition": 50,
+          "ChinLength": 50,
+          "ChinProtrusion": 50,
+          "ChinDepth": 50,
+          "ChinSize": 50,
+          "ChinHeight": 50,
+          "ChinWidth": 50
+        },
+        "Jaw": {
+          "JawProtrusion": 50,
+          "JawWidth": 50,
+          "LowerJaw": 50,
+          "JawContour": 50
+        }
+      },
+      "Hair": {
+        "Hair": 26,
+        "HairColor": "#000000",
+        "Luster": 50,
+        "RootDarkness": 50,
+        "WhiteHairs": 50
+      },
+      "Eyebrows": {
+        "Brow": 10,
+        "BrowColor": "#000000",
+        "Luster": "#000000|MatchHair",
+        "RootDarkness": "#000000|MatchHair",
+        "WhiteHairs": "#000000|MatchHair"
+      },
+      "FacialHair": {
+        "Beard": 1,
+        "BeardColor": "#000000|MatchHair",
+        "Luster": "#000000|MatchHair",
+        "RootDarkness": "#000000|MatchHair",
+        "WhiteHairs": "#000000|MatchHair",
+        "Stubble": 50
+      },
+      "Eyelashes": {
+        "Eyelashes": 1,
+        "EyelashColor": "#000000|MatchHair"
+      },
+      "Eyes": {
+        "RightIrisSize": 50,
+        "RightIrisColor": "#000000",
+        "RightEyeClouding": 50,
+        "RightCloudingColor": "#000000",
+        "RightEyeWhiteColor": "#000000",
+        "RightEyePosition": 50,
+        "LeftIrisSize": "MatchRightEye",
+        "LeftIrisColor": "MatchRightEye",
+        "LeftEyeClouding": "MatchRightEye",
+        "LeftCloudingColor": "MatchRightEye",
+        "LeftEyeWhiteColor": "MatchRightEye",
+        "LeftEyePosition": "MatchRightEye"
+      },
+      "SkinFeatures": {
+        "Pores": 50,
+        "SkinLuster": 50,
+        "DarkCircles": 50,
+        "DarkCircleColor": "#000000"
+      },
+      "Cosmetics": {
+        "Eyeliner": 50,
+        "EyelinerColor": "#000000",
+        "EyeshadowUpper": 50,
+        "EyeshadowColorUpper": "#000000",
+        "EyeshadowLower": 50,
+        "EyeshadowColorLower": "#000000",
+        "Cheeks": 50,
+        "CheekColor": "#000000",
+        "Lipstick": 40,
+        "LipstickColor": "#000000"
+      },
+      "Tattoos": {
+        "TattooMark": 1,
+        "TattooMarkColor": "#000000",
+        "TweakTattooMark": {
+          "PositionVertical": 50,
+          "PositionHorizontal": 50,
+          "Angle": 50,
+          "Expansion": 50,
+          "Flip": "ON|OFF"
+        },
+        "Eyepatch": 1,
+        "EyepatchColor": "#000000"
+      }
+    },
+    "AlterBody": {
+      "Head": 50,
+      "Chest": 50,
+      "Abdomen": 50,
+      "Arms": 50,
+      "Legs": 50,
+      "BodyHair": 50,
+      "BodyHairColor": "#000000|MatchHair",
+      "Musculature": "Standard"
+    }
+  }
+}

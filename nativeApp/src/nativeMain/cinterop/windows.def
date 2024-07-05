@@ -1,0 +1,3 @@
+headers = windows.h
+headerFilter = windows.h
+linkerOpts.windows = -lkernel32

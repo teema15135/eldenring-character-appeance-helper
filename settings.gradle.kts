@@ -5,4 +5,6 @@ pluginManagement {
     }
 }
 
-rootProject.name = "KotlinNativeTemplate"
+rootProject.name = "EldenRingCharacterAppearanceHelper"
+
+include(":nativeApp")
