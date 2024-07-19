@@ -6,9 +6,9 @@ import kotlinx.io.files.Path
 import kotlinx.io.files.SystemFileSystem
 import kotlinx.io.readLine
 
-fun read(filepath: String): String {
+internal fun read(filepath: String): String {
     if (!SystemFileSystem.exists(Path(filepath))) {
-        throw FileNotFoundException(Path(filepath).parent.toString()) // zxzxzxzx
+        throw FileNotFoundException(Path(filepath).parent.toString())
     }
     val source = SystemFileSystem.source(Path(filepath))
     source.buffered().let { buffer ->

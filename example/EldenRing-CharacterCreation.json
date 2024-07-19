@@ -156,8 +156,8 @@
           "Expansion": 50,
           "Flip": "ON|OFF"
         },
-        "Eyepatch": 1,
-        "EyepatchColor": "#000000"
+        "EyePatch": 1,
+        "EyePatchColor": "#000000"
       }
     },
     "AlterBody": {

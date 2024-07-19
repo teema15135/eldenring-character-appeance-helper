@@ -1,6 +1,6 @@
 package com.teema.native.ercaa
 
-import com.teema.native.ercaa.system.filedeserializer.read
+import com.teema.native.ercaa.system.filedeserializer.readToModel
 import com.teema.native.ercaa.system.keyboard.output.VK_E
 import com.teema.native.ercaa.system.keyboard.output.VK_Q
 import com.teema.native.ercaa.system.keyboard.output.VK_X
@@ -17,10 +17,11 @@ import kotlinx.coroutines.runBlocking
 fun main() {
     println("Hello, Kotlin/Native!")
 
-    val filePath = /* readlnOrNull() ?: */ "D:\\Projects\\IdeaProjects\\eldenring-character-appeance-helper\\example\\EldenRing-CharacterCreation.json"
+    val filePath = // readlnOrNull()
+        "..\\..\\example\\EldenRing-CharacterCreation.json"
 
     runCatching {
-        read(filePath)
+        readToModel(filePath)
     }.fold({
         println(it)
     }, {
@@ -28,13 +29,13 @@ fun main() {
     })
 
 
-    runBlocking {
-        delay(2000)
-        sendKey(VK_Q)
-        sendKey(VK_E)
-        sendKey(VK_X)
-        sendKey(VK_Z)
-    }
+//    runBlocking {
+//        delay(2000)
+//        sendKey(VK_Q)
+//        sendKey(VK_E)
+//        sendKey(VK_X)
+//        sendKey(VK_Z)
+//    }
 
     println("Complete")
 }
